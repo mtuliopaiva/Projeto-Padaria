@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width-device-width">
+	<title>Pão dos Sonhos - Cadastro</title>
+	<link rel="stylesheet" href="reset.css">
+	<link rel="stylesheet" href="style.css">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Shalimar&display=swap" rel="stylesheet">
+</head>
+<body>
+	<header>
+		<div class="cabecalho-logo">
+			<img src="logo.png" alt="Logo marca Pão dos Sonhos">
+			<h1>Pão dos Sonhos</h1>
+		</div>
+
+		<div class="cabecalho-menu">
+			<nav>
+				<ul>
+					<li><a href="home.html">pão dos sonhos</a></li>
+					<li><a href="produtos.html">produtos</a></li>
+					<li><a href="cadastro.html">cadastro</a></li>
+					<li><a href="contato.html">Nosso contato</a></li>
+						
+				</ul>
+			</nav>
+		</div>
+	</header>
+	<main>
+		<h2> Nosso contato</h2>
+		<section class="info-contato">
+			<div>
+				<p class="titulo-secundario">Contato</p>
+				<p>&#128222; (16)  3078-4056</p>
+				<p>&#128222; (16) 99100-5050</p>
+				<p>&#9993; paodossonhos@gmail.com</p>
+			</div>
+
+			<fieldset class="contato">
+			<legend class="titulo-secundario">Como prefere o nosso contato?</legend>
+			<label for="radio-email"><input type="radio" name="contato" value="email" id="radio-email" checked>Telefone</label>
+			<label for="radio-email"><input type="radio" name="contato" value="email" id="radio-email">E-mail</label>
+			<label for="radio-email"><input type="radio" name="contato" value="email" id="radio-email">WhatsApp</label>
+			</fieldset>
+			
+
+			<label><input type="Checkbox" class="checkbox" checked>Gostaria de receber nossas novidades por e-mail?</label>
+			<div class="newsletter">
+				<p class="titulo-secundario">Não tem Cadastro? Digite abaixo:</p>
+				<label for="email">E-mail:</label>
+				<input type="email" id="email" class="newsletter" required placeholder="seuemail@dominio.com.br">
+
+				<label for="fone">Telefone:</label>
+				<input type="tel" id="fone" class="newsletter" required placeholder="(XX) X XXXX-XXXX">
+				<div class="avaliar">
+					<p class="titulo-secundario">Que tal nos avaliar?</p>
+					<label for="radio-email"><input type="radio" name="contato" value="avaliar" id="radio-avaliar">Não quero avaliar</label>
+					<label for="radio-email"><input type="radio" name="contato" value="avaliar" id="radio-avaliar">Ruim</label>
+					<label for="radio-email"><input type="radio" name="contato" value="avaliar" id="radio-avaliar">Bom</label>
+					<label for="radio-email"><input type="radio" name="contato" value="avaliar" id="radio-avaliar">Muito bom</label>
+					<label for="radio-avaliar"><input type="radio" name="contato" value="avaliar" id="radio-avaliar" checked>Excelente</label>
+					<input type="submit" value="Enviar!" class="enviar-avaliar">
+				</div>
+			</div>
+
+
+				<table>
+				<thead><!--Cabeçalho da tabela-->
+					<tr><!--Table row (linha)-->
+						<th colspan="2">Horário de funcionamento</th><!--celulas (coluna)-->
+
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>Terças a Sextas</td>
+						<td>06h~21h</td>
+					</tr>
+					<tr>
+						<td>Sábados</td>
+						<td>07h~21h</td>
+					</tr>
+					<tr>
+						<td>Domingos e feriados</td>
+						<td>09h~17h</td>
+					</tr>
+				</tbody>
+			</table>
+		</section>
+
+		<section class="info-local">
+			<p class="titulo-secundario">&#128205; Nosso endereço</p>
+				<p>Ribeirão Preto - SP</p>
+				<p>Rua Engenheiro Agronomo Guaracy, 345, Bairro Nova Aliança</p>
+			<div class="maps">
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1105.7927134515867!2d-47.82406115861033!3d-21.214849661794236!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94b9b94abd83f011%3A0xb6e667f987b3592!2sElite%20Padaria!5e0!3m2!1spt-BR!2sbr!4v1641602936144!5m2!1spt-BR!2sbr" width="300" height="250" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+			</div>
+		</section>
+	</main>
+		<footer>
+		<img src="logo-escuro.png" alt="Logomarca Pão dos Sonhos">
+		<div class="social-media">
+			<a href="https://www.facebook.com/"><img src="fb.png" alt="Ícone do facebook" ></a>
+			<a href="https://www.instagram.com/"><img src="insta.png" alt="Ícone do instagram"></a>
+			<a href="https://twitter.com/"><img src="twt.png" alt="Ícone do twitter"></a>
+
+		</div>
+	</footer>
+</body>
+
+</html>

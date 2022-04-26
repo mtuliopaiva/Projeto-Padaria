@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width-device-width">
+	<title>Pão dos Sonhos - Cadastro</title>
+	<link rel="stylesheet" href="reset.css">
+	<link rel="stylesheet" href="style.css">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Shalimar&display=swap" rel="stylesheet">
+</head>
+<body>
+	<header>
+		<div class="cabecalho-logo">
+			<img src="logo.png">
+			<h1>Pão dos Sonhos</h1>
+		</div>
+
+		<div class="cabecalho-menu">
+			<nav>
+				<ul>
+					<li><a href="home.html">pão dos sonhos</a></li>
+					<li><a href="produtos.html">produtos</a></li>
+					<li><a href="cadastro.html">cadastro</a></li>
+					<li><a href="contato.html">Nosso contato</a></li>
+						
+				</ul>
+			</nav>
+		</div>
+	</header>
+	<main>
+		<h2> Cadastro</h2>
+		<form>
+			<div class="personal-info">
+				<p>Informações pessoais</p>
+				<label for="nomesobrenome">Nome completo: </label>
+				<input type="text" id="nomesobrenome" class="input-padrao" required>
+
+				<label for="email">E-mail:</label>
+				<input type="email" id="email" class="input-padrao" required placeholder="seuemail@dominio.com.br">
+
+				<label for="fone">Telefone:</label>
+				<input type="tel" id="fone" class="input-padrao" required placeholder="(XX) X XXXX-XXXX">
+			</div>
+
+			<div class="personal-adress">
+				<p>Endereço</p>
+				<label for="estado">UF: </label>
+				<input type="text" id="estado" class="input-padrao" required>
+				<label for="cidade">Cidade: </label>
+				<input type="text" id="cidade" class="input-padrao" required>
+				<label for="rua">Rua: </label>
+				<input type="text" id="rua" class="input-padrao" required>
+				<label for="bairro">Bairro: </label>
+				<input type="text" id="bairro" class="input-padrao" required>
+				<label for="cep">CEP: </label>
+				<input type="text"  id="cep" size="5" maxlength="5" required> - <input type="text"  id="cep" size="3" maxlength="3" required>
+				<a href="https://buscacepinter.correios.com.br/app/endereco/index.php">Eu não sei o meu CEP</a>
+			</div>
+
+			<label for="mensagem">Informações adicionais: </label>
+			<textarea cols="50" rows="10" id="mensagem" class="input-padrao" reequired placeholder="Deixe aqui sua mensagem!"></textarea>
+
+			<input type="submit" value="Cadastrar!" class="enviar">
+			
+		</form>
+	</main>
+		<footer>
+		<img src="logo-escuro.png" alt="Logomarca Pão dos Sonhos">
+		<div class="social-media">
+			<a href="https://www.facebook.com/"><img src="fb.png" alt="Ícone do facebook" ></a>
+			<a href="https://www.instagram.com/"><img src="insta.png" alt="Ícone do instagram"></a>
+			<a href="https://twitter.com/"><img src="twt.png" alt="Ícone do twitter"></a>
+
+		</div>
+	</footer>
+</body>
+
+</html>
